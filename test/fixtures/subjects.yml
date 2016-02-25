@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  timelapse: 1
+  progress: 1
+
+two:
+  name: MyString
+  description: MyText
+  timelapse: 1
+  progress: 1
