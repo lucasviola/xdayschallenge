@@ -2,6 +2,49 @@
 
 <h1>Listing Subjects</h1>
 
+<div class="container">
+	<div class="row">
+            <div class="row">
+                <% @subjects.each do |subject|%>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                            <h1 class="tag-title"><%= subject.name %></h1>
+                            <hr />
+                            <p><<%= subject.description %></p>
+                            <br />
+                            <a href="#" class="btn btn-block btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="box">
+                      <div class="box-content">
+                          <h1 class="tag-title"><%= subject.name %></h1>
+                          <hr />
+                          <p><<%= subject.description %></p>
+                          <br />
+                          <a href="#" class="btn btn-block btn-primary">Learn more</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <div class="box">
+                      <div class="box-content">
+                          <h1 class="tag-title"><%= subject.name %></h1>
+                          <hr />
+                          <p><<%= subject.description %></p>
+                          <br />
+                          <a href="#" class="btn btn-block btn-primary">Learn more</a>
+                      </div>
+                    </div>
+                </div>
+                <% end %>
+            </div>
+        </div>
+	</div>
+</div>
+<!--
 <table>
   <thead>
     <tr>
@@ -30,4 +73,4 @@
 
 <br>
 
-<%= link_to 'New Subject', new_subject_path %>
+<%= link_to 'New Subject', new_subject_path %> -->
