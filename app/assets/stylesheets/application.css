@@ -13,5 +13,6 @@
  *= require_tree .
  *= require_self
  *= require bootstrap
- *= require header.scss 
+ *= require header.scss
+ *= require home.scss 
  */
