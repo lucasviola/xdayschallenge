@@ -1,3 +1,3 @@
 class Subject < ActiveRecord::Base
-  has_many :schedules
+  has_one :schedule, dependent: :destroy
 end
