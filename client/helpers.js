@@ -1,6 +1,6 @@
 Template.body.helpers({
   challenges: function () {
-    return Challenges.find({}, {sort: { createdAt: -1 }});
+    return Challenges.find({});
   },
   schedules: function () {
     return Schedules.find({});
