@@ -2,7 +2,7 @@
 
 Template.body.helpers({
   challenges: function () {
-    return Challenges.findOne();
+    return Challenges.find({});
   },
   schedules: function () {
     return Schedules.find({});
