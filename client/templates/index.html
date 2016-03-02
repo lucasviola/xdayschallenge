@@ -1,16 +1,12 @@
-<head>
-  <title>desafie-se</title>
-</head>
-
 <body>
   <h1>Desafie-se!</h1>
 
-  {{#each challenges}}
-    {{> title}}
-  {{/each}}
+  <template name="challenges">
+
+    {{#each challenges}}
+      {{> title}}
+    {{/each}}
+
+  </template>
 
 </body>
-
-<template name="challenges">
-
-</template>
